@@ -1,6 +1,6 @@
 import styles from "../components/general.module.css";
 import { useState } from "react";
-import useRouter from "next/router";
+import { useRouter } from "next/router";
 
 const Admin = () => {
   const router = useRouter();
