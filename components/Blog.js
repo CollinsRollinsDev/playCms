@@ -11,7 +11,9 @@ const Blog = () => {
 
 
    const getPosts =  async() => {
-      axios('/api/posting')
+      axios('/api/posting', {
+         method: "GET",
+       })
       .then(res => {
          let file = res.data.data
          file = file.reverse();

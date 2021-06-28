@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 import dbConnect from '../utils/dbConnect'
 import Blog from '../components/Blog';
 
-
 export default function Home() {
   // dbConnect();
 
